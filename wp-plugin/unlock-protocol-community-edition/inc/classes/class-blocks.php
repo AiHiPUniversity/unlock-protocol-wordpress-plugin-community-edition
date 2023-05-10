@@ -8,6 +8,7 @@
 namespace Unlock_Protocol\Inc;
 
 use Unlock_Protocol\Inc\Blocks\Unlock_Box_Block;
+use Unlock_Protocol\Inc\Blocks\Shortcode_Block;
 use Unlock_Protocol\Inc\Traits\Singleton;
 
 /**
@@ -28,6 +29,7 @@ class Blocks {
 
 		$this->setup_hooks();
 		Unlock_Box_Block::get_instance();
+		Shortcode_Block::get_instance();
 
 	}
 
