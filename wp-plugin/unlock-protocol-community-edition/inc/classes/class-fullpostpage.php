@@ -8,6 +8,7 @@
 namespace Unlock_Protocol\Inc;
 
 use Unlock_Protocol\Inc\FullPostPage\Unlock_Box_Full_Post_Page;
+use Unlock_Protocol\Inc\FullPostPage\Shortcode_Full_Post_Page;
 use Unlock_Protocol\Inc\Traits\Singleton;
 
 /**
@@ -28,6 +29,7 @@ class FullPostPage {
 
 		$this->setup_hooks();
 		Unlock_Box_Full_Post_Page::get_instance();
+		Shortcode_Full_Post_Page::get_instance();
 
 	}
 
