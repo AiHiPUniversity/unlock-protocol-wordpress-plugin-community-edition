@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Unlock Smart Contract Interface Reference
-pagination_next: core-protocol/unlock/README
+pagination_next: Features/README
 description: >-
   Guide to Unlock Protocol smart contracts including where to find them and how
   they can be used.

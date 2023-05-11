@@ -36,4 +36,4 @@ contract MyUnlockFactory {
 }
 ```
 
-This technique can be used to [set hooks](../../core-protocol/public-lock/hooks.md), apply referrer fees, or change any property on the lock. Importantly, as the deployer, the `MyUnlockFactory` is the first lock manager. In this example, we immediately renounce that role but if this contract kept the role, it could also have additional functions that could be called later to change the behavior of the contract.
+This technique can be used to [set hooks](../../Features/public-lock/hooks.md), apply referrer fees, or change any property on the lock. Importantly, as the deployer, the `MyUnlockFactory` is the first lock manager. In this example, we immediately renounce that role but if this contract kept the role, it could also have additional functions that could be called later to change the behavior of the contract.

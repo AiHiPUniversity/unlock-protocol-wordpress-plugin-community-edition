@@ -298,7 +298,7 @@ const config = {
           label: "Dashboard",
           position: "right",
         },
-        { to: "/core-protocol", label: "Core Protocol", position: "right" },
+        { to: "/features", label: "Features", position: "right" },
         { to: "/governance", label: "Governance", position: "right" },
         {
           href: "https://github.com/unlock-protocol/unlock",
