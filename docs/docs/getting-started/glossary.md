@@ -1,6 +1,6 @@
 ---
 title: Glossary
-sidebar_position: 2
+sidebar_position: 5
 description: >- 
   A glossary of terms used in the Unlock Protocol community and also
   the greater web3 ecosystem we belong to.
