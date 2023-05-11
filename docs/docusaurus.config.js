@@ -5,17 +5,17 @@ const UnlockPrismTheme = require("./unlock-prism-theme");
 
 /** @type {import('@docusaurus/core').Config} */
 const config = {
-  title: "Unlock Protocol",
+  title: "Unlock Protocol Wordpress Plugin Community Edition",
   tagline:
-    "Unlock is a membership protocol, built on a blockchain. It enables creators to monetize their content or software without relying on a middleman. It lets consumers manage all of their subscriptions in a consistent way, as well as earn discounts when they share the best content and applications they use.",
+    "Allows to lock content in wp with Unlock",
   url: "https://docs.unlock-protocol.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   onDuplicateRoutes: "throw",
   favicon: "img/favicon.ico",
-  organizationName: "unlock-protocol", // Usually your GitHub org/user name.
-  projectName: "docs", // Usually your repo name.
+  organizationName: "AiHiPUniversity", // Usually your GitHub org/user name.
+  projectName: "Unlock Protocol Wordpress Plugin Community Edition Docs", // Usually your repo name.
   plugins: [
     'docusaurus-node-polyfills',
     [
@@ -28,154 +28,22 @@ const config = {
       "@docusaurus/plugin-client-redirects",
       {
         redirects: [
-          {
-            from: "/unlock/developers/sign-in-with-ethereum", //redirect sign in with ethereum
-            to: "/tools/sign-in-with-ethereum/",
-          },
-          {
-            from: "/unlock",
-            to: "/",
-          },
-          {
-            from: "/basics",
-            to: "/",
-          },
-          {
-            from: "/unlock/tools/locksmith/webhooks",
-            to: "/tools/locksmith/webhooks",
-          },
-          {
-            from: "/unlock/governance/roadmap",
-            to: "/governance/roadmap",
-          },
-          {
-            from: "/basics/new-to-unlock/unlock-accounts",
-            to: "/tools/sign-in-with-ethereum/unlock-accounts",
-          },
-          {
-            from: "/basics/unlock-accounts",
-            to: "/tools/sign-in-with-ethereum/unlock-accounts",
-          },
-          {
-            from: "/tools/paywall/sign-in-with-ethereum",
-            to: "/tools/sign-in-with-ethereum/",
-          },
-          {
-            from: "/new-to-web3/ethereum-architecture",
-            to: "/getting-started/new-to-web3/ethereum-architecture",
-          },
-          {
-            from: "/new-to-web3/",
-            to: "/getting-started/new-to-web3/",
-          },
-          {
-            from: "/new-to-web3/using-etherscan",
-            to: "/getting-started/new-to-web3/using-etherscan",
-          },
-          {
-            from: "/new-to-web3/what-is-a-crypto-wallet-a-guide-for-developers",
-            to: "/getting-started/new-to-web3/what-is-a-crypto-wallet",
-          },
-          {
-            from: "/new-to-web3/what-is-a-decentralised-application-aka-dapp",
-            to: "/getting-started/new-to-web3/what-is-a-decentralised-application-aka-dapp",
-          },
-          {
-            from: "/new-to-web3/what-is-a-smart-contract",
-            to: "/getting-started/new-to-web3/what-is-a-smart-contract",
-          },
-          {
-            from: "/new-to-web3/what-is-an-nft",
-            to: "/getting-started/new-to-web3/what-is-an-nft",
-          },
-          {
-            from: "/our-code-of-conduct",
-            to: "/getting-started/our-code-of-conduct",
-          },
-          {
-            from: "/litepaper",
-            to: "/getting-started/what-is-unlock/litepaper",
-          },
-          {
-            from: "/tutorials/backend-locking-with-express.js",
-            to: "/tutorials/back-end/backend-locking-with-express.js",
-          },
-          {
-            from: "/tutorials/ad-free-experience",
-            to: "/tutorials/front-end/locking-page",
-          },
-          {
-            from: "/tutorials/front-end/ad-free-experience",
-            to: "/tutorials/front-end/locking-page",
-          },
-          {
-            from: "/tutorials/front-end/locking-media-content",
-            to: "/tutorials/front-end/locking-page"
-          },
-          {
-            from: "/tutorials/locking-media-content",
-            to: "/tutorials/front-end/locking-page",
-          },
-          {
-            from: "/tutorials/react-example",
-            to: "/tutorials/front-end/react-example",
-          },
-          {
-            from: "/tutorials/using-subgraphs",
-            to: "/tutorials/misc/using-subgraphs",
-          },
-          {
-            from: "/tutorials/ethers",
-            to: "/tutorials/smart-contracts/ethers",
-          },
-          {
-            from: "/tutorials/smart-contracts/the-key-purchase-hook",
-            to: "/tutorials/smart-contracts/hooks/the-key-purchase-hook",
-          },
-          {
-            from: "/tutorials/smart-contracts/using-an-existing-nft-contract",
-            to: "/tutorials/smart-contracts/hooks/using-an-existing-nft-contract",
-          },
-          {
-            from: "/tutorials/the-key-purchase-hook",
-            to: "/tutorials/smart-contracts/hooks/the-key-purchase-hook",
-          },
-          {
-            from: "/tutorials/using-an-existing-nft-contract",
-            to: "/tutorials/smart-contracts/hooks/using-an-existing-nft-contract",
-          },
-          {
-            from: "/tutorials/using-unlock-in-other-contracts",
-            to: "/tutorials/smart-contracts/using-unlock-in-other-contracts",
-          },
-          {
-            from: "/core-protocol/deploying-locally/",
-            to: "/tutorials/smart-contracts/deploying-locally",
-          },
-          {
-            from: "/developers/unlock.js",
-            to: "/tools/unlock.js",
-          },
-          {
-            from: "/tools/entities",
-            to: "/tools/subgraph/entities",
-          },
-          {
-            from: "/tools/queries",
-            to: "/tools/subgraph/queries",
-          },
-          {
-            from: "/basics/deploying-a-lock",
-            to: "/core-protocol/public-lock/deploying-locks"
-          },
-          {
-            from: "/tools/paywall/configuring-checkout",
-            to: "/tools/checkout/configuration"
-          },
-          {
-            from: "/governance/grants-bounties-and-matchings",
-            to: "/governance/grants-bounties/"
-          }
+          // {
+          //   from: "/unlock/developers/sign-in-with-ethereum", //redirect sign in with ethereum
+          //   to: "/tools/sign-in-with-ethereum/",
+          // },
+          // {
+          //   from: "/unlock",
+          //   to: "/",
+          // },
+          // {
+          //   from: "/basics",
+          //   to: "/",
+          // },
+          // {
+          //   from: "/unlock/tools/locksmith/webhooks",
+          //   to: "/tools/locksmith/webhooks",
+          // }
         ],
       },
     ],
@@ -298,7 +166,7 @@ const config = {
           label: "Dashboard",
           position: "right",
         },
-        { to: "/core-protocol", label: "Core Protocol", position: "right" },
+        { to: "/features", label: "Features", position: "right" },
         { to: "/governance", label: "Governance", position: "right" },
         {
           href: "https://github.com/unlock-protocol/unlock",
