@@ -1,13 +1,1 @@
 # Redirects from what the browser requests to what we serve
-# /move-to-guides/plugins-and-integrations/                                 https://unlock-protocol.com/guides/category/plugins/
-# /move-to-guides/plugins-and-integrations/cal-com/                         https://unlock-protocol.com/guides/cal-com-with-unlock-protoccol/
-# /governance/grants-bounties-and-matchings                                 /governance/grants-bounties
-# /basics/deploying-a-lock                                                  https://unlock-protocol.com/guides/how-to-create-a-lock/
-# /tools/locksmith/authorization-strategy                                   /tools/locksmith/
-# /tools/paywall/advanced-paywall-configuration                             /tools/paywall
-# /tools/paywall/locking-page                                               /tutorials/front-end/locking-page
-# /developers/tutorials/backend-locking-with-express.js                     /tutorials/back-end/backend-locking-with-express.js
-# /tutorials/ad-free-experience                                             /tutorials/front-end/locking-page
-# /tutorials/front-end/ad-free-experience                                   /tutorials/front-end/locking-page
-# /tutorials/front-end/locking-media-content                                /tutorials/front-end/locking-page
-# /tutorials/locking-media-content                                          /tutorials/front-end/locking-page

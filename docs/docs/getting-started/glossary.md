@@ -68,7 +68,7 @@ Welcome, Locksmith! Let’s start with getting the lay of the land with a few co
     to act as “digital membership cards.”</dd>
 
   <dt>Paywall</dt>
-    <dd><a href="/tools/paywall/">The Paywall</a> is a web application which 
+    <dd><a href="https://docs.unlock-protocol.com/">The Paywall</a> is a web application which 
     provides a user interface allowing people to purchase keys to given locks and 
     easily lock or unlock content on a web page based on the ownership of those 
     keys.</dd>
@@ -103,7 +103,7 @@ Welcome, Locksmith! Let’s start with getting the lay of the land with a few co
   <dt>UDT</dt>
     <dd>Unlock Discount Token which is granted as rewards upon key purchase to 
     an address designated in the key purchase call. Currently used for  
-    <a href="/governance/"> governance</a> votes.</dd>
+    <a href="https://docs.unlock-protocol.com/governance/"> governance</a> votes.</dd>
 
   <dt>web3</dt>
     <dd>The next stage of the internet, following Web 2.0, which is more 
