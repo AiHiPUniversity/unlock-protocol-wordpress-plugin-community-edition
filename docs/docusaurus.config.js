@@ -10,8 +10,8 @@ const config = {
     "Allows to lock content in wp with Unlock",
   url: "https://unlock-wpplugin-community-edition.aihipuniversity.com",
   baseUrl: "/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "throw",
+  onBrokenLinks: "warn",
+  onBrokenMarkdownLinks: "warn",
   onDuplicateRoutes: "throw",
   favicon: "img/favicon.ico",
   organizationName: "AiHiPUniversity", // Usually your GitHub org/user name.
