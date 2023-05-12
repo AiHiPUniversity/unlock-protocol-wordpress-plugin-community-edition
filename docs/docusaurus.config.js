@@ -8,7 +8,7 @@ const config = {
   title: "Unlock Protocol Wordpress Plugin Community Edition",
   tagline:
     "Allows to lock content in wp with Unlock",
-  url: "https://docs.unlock-protocol.com",
+  url: "https://unlock-wpplugin-community-edition.aihipuniversity.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -50,34 +50,28 @@ const config = {
   ],
   presets: [
     [
-      "docusaurus-preset-openapi",
-      /** @type {import('docusaurus-preset-openapi').Options} */
-      ({
-        api: {
-          sidebarCollapsed: false,
-          path: "./openapi.yml",
-          routeBasePath: "/api/locksmith",
-        },
+      '@docusaurus/preset-classic',
+      {
         docs: {
-          showLastUpdateTime: false,
-          routeBasePath: "/",
-          sidebarPath: require.resolve("./sidebars.js"),
-          // editUrl: "https://github.com/unlock-protocol/docs/docs",
+          sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
+          // Please change this to your repo.
+          // editUrl: 'https://github.com/unlock-protocol/docs/docs',
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
 
 
   themeConfig: {
     start_urls: [
-      "https://docs.unlock-protocol.com"
+      "https://github.com/AiHiPUniversity/unlock-protocol-wordpress-plugin-community-edition"
     ],
     sitemap_urls: [
-      "https://docs.unlock-protocol.com/sitemap.xml"
+      "https://unlock-wpplugin-community-edition.aihipuniversity.com/sitemap.xml"
     ],
     algolia: {
       appId: "J4FN2FD27Q",
@@ -111,7 +105,7 @@ const config = {
       },
       {
         property: "og:url",
-        content: "https://docs.unlock-protocol.com/",
+        content: "https://unlock-wpplugin-community-edition.aihipuniversity.com",
       },
       {
         property: "og:image",
@@ -167,18 +161,13 @@ const config = {
           position: "right",
         },
         { to: "/features", label: "Features", position: "right" },
-        { to: "/governance", label: "Governance", position: "right" },
+        { to: "/showcase", label: "Showcase", position: "right" },
         {
-          href: "https://github.com/unlock-protocol/unlock",
+          href: "https://github.com/AiHiPUniversity/unlock-protocol-wordpress-plugin-community-edition",
           label: "GitHub",
           position: "right",
         },
-        {
-          to: "https://unlock-protocol.gitbook.io/",
-          label: "Older Docs",
-          position: "right",
-          rel: "nofollow,noindex",
-        },
+        { to: "/faq", label: "FAQ", position: "right" },
       ],
     },
     footer: {
@@ -192,20 +181,20 @@ const config = {
               to: "/",
             },
             {
-              label: "Tools",
-              to: "/tools",
+              label: "FAQ",
+              to: "/faq",
             },
             {
               label: "Tutorials",
               to: "/tutorials",
             },
             {
-              label: "Goverance",
-              to: "/governance",
+              label: "Showcase",
+              to: "/showcase",
             },
             {
               label: "GitHub",
-              href: "https://github.com/unlock-protocol/unlock",
+              href: "https://github.com/AiHiPUniversity/unlock-protocol-wordpress-plugin-community-edition",
             },
           ],
         },
@@ -261,7 +250,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Unlock, Inc.`,
+      copyright: `Copyright © 2023-${new Date().getFullYear()} Unlock Wordpress Plugin Community Edition.`,
     },
     prism: {
       additionalLanguages: ["solidity"],
