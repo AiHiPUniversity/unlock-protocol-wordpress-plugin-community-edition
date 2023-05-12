@@ -10,26 +10,16 @@ sidebar_position: 2
 
 ## Documentation
 
-Unlock Protocol’s documentation is organized into the following categories.
+Unlock Protocol Wordpress Plugin Community Edition Documentation is organized into the following categories.
 
-- **[Getting Started:](https://docs.unlock-protocol.com/basics/)** An overview
-  of web3 and Unlock Protocol core concepts (you are here).
-- **[Core Protocol:](https://docs.unlock-protocol.com/core-protocol/)** An
-  overview of the two smart contracts that make up the protocol and a complete
-  interface reference generated from the smart contracts themselves.
-- **[Tools:](https://docs.unlock-protocol.com/tools/)** All the information you
-  need about the tooling provided by Unlock Labs for protocol implementation.
-- **[Tutorials:](https://docs.unlock-protocol.com/tutorials/)** In-depth articles
-  on specific use cases and implementations.
-- **[Governance:](https://docs.unlock-protocol.com/governance/)** Everything you
-  need to know about becoming a DAO member, [UDT](../governance/unlock-dao-tokens)
-  governance tokens, and voting.
-
-We also have [Creator Guides](https://unlock-protocol.com/guides/) geared towards
-people using the convenience applications we've built, step-by-step tutorials on
-specific implementations and covering plugins and integrations. Although these
-guides are aimed at non-technical users they are still relevant and useful to
-developers building applications on Unlock.
+- **[Getting Started:](../)** An overview
+  of Unlock Protocol and this Wordpress plugin community edition for Unlock.
+- **[Features:](../features/)** An
+  overview of the features of Unlock Protocol WordPress Plugin Community Edition.
+- **[Tutorials:](../tutorials/)** In-depth articles/videos
+  on specific use cases and implementations of this community edition wp plugin.  
+- **[FAQ:](../faq/)** Frequently Asked Questions about Unlock Protocol WordPress Plugin Community Edition.
+- **[Showcase:](../showcase/)** Display of WordPress websites with unlock Protocol implementation.
 
 ## Search
 
@@ -38,12 +28,14 @@ navigate the docs site and quickly find the resources you're looking for.
 
 ## Discord Server
 
-We have a thriving community at Unlock Protocol and our
-[Discord](https://discord.com/invite/Ah6ZEJyTDp) server is the hub. When you
+Considering Unlock Protocol is backed by Unlock DAO, We have a thriving community and our
+[Discord](https://discord.com/invite/Ah6ZEJyTDp) server is the official meetup and discussion hub. When you
 first land there be sure to drop into the lobby and hit the "Unlock Discord"
 button where you can claim your Unlock Membership and gain access to the rest
-of our channels. If you have any technical implementation questions you'll find
-our #developers channel is the place to be. Both our core engineering team, mods,
-developer relations, along with seasoned Unlock members are usually very
+of our channels.
+
+- If you have any technical implementation questions about Unlock Protocol WordPress Plugin Community Edition you'll find a dedicated [#wordpress](https://discord.com/channels/462280183425138719/926137583564619836) channel is the place to be for dedicated support relating to Unlock WordPress integrations. Both Unlock core engineering team, mods, developer relations, along with seasoned Unlock members are usually very
 responsive and ready to answer your questions. Most of the time you can do a
-search in this channel and find some answers you're looking for.
+search in this channel and find some answers you're looking for. 
+
+- Remember to use this documentation [FAQ:](../faq/)** Frequently Asked Questions about Unlock Protocol WordPress Plugin Community Edition.

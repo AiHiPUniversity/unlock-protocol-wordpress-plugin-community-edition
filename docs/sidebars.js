@@ -66,16 +66,15 @@ const sidebars = {
         id: "faq/README",
       },
       items: [
-        "faq/dashboard",
-        {
-          type: "category",
-          label: "Sign in with ethereum",
-          link: {
-            type: "doc",
-            id: "faq/sign-in-with-ethereum/README",
-          },
-          items: ["faq/sign-in-with-ethereum/unlock-accounts"],
-        },
+        // {
+        //   type: "category",
+        //   label: "Sign in with ethereum",
+        //   link: {
+        //     type: "doc",
+        //     id: "faq/sign-in-with-ethereum/README",
+        //   },
+        //   items: ["faq/sign-in-with-ethereum/unlock-accounts"],
+        // },
       ],
     },
     {
