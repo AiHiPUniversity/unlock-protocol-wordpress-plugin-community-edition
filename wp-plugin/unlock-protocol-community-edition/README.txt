@@ -1,5 +1,5 @@
 === Unlock Protocol Community Edition ===
-Contributors: AiHiPUniversity
+Contributors: FoskaaySolomon, AiHiPUniversity
 Donate link: https://unlock-wpplugin-community-edition.AiHiPUniversity.com/getting-started/donate
 Tags: unlock, blockchain, crypto, ethereum, polygon, arbitrum, nft, evm blockchain, unlock protocol, web3, web3 login, nft lock, content monetization
 Requires at least: 5.6
