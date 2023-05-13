@@ -1,12 +1,13 @@
 === Unlock Protocol Community Edition ===
-Contributors: Foskaay Solomon, AiHiPUniversity
+Contributors: AiHiPUniversity
 Donate link: https://unlock-wpplugin-community-edition.AiHiPUniversity.com/getting-started/donate
 Tags: unlock, blockchain, crypto, ethereum, polygon, arbitrum, nft, evm blockchain, unlock protocol, web3, web3 login, nft lock, content monetization
 Requires at least: 5.6
 Tested up to: 6.2
+Requires PHP: 7.0
 Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3
+License URI: https://github.com/AiHiPUniversity/unlock-protocol-wordpress-plugin-community-edition/blob/main/wp-plugin/unlock-protocol-community-edition/LICENSE
 
 A community-driven, open-source fork of the official Unlock Protocol WordPress plugin, focused on addressing long-standing unresolved issues and adding new community-requested features in a more timely manner.
 
@@ -54,10 +55,16 @@ As an open-source project, we welcome contributions for both the plugin and its 
 
 Please refer to the [FAQ section](https://unlock-wpplugin-community-edition.aihipuniversity.com/faq/) on our official website.
 
+== Screenshots ==
+
+1. The Unlock Protocol Community Edition settings page.
+2. Example of a locked post with Unlock Protocol powered NFT.
+3. Example of an unlocked post with Unlock Protocol powered NFT.
+
 == Changelog ==
 
 = 1.0.0 =
 * Initial release
 
 == Upgrade Notice ==
-
+This is an initial release
