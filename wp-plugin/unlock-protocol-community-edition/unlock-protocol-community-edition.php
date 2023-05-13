@@ -5,13 +5,13 @@
  * Description:  A plugin to add lock(s) to WordPress content on post, pages and custom post types.
  * Author:      Foskaay Solomon, AiHiPuniversity
  * Author URI:  https://AiHiPUniversity.com
- * Version:     1.0.1
+ * Version:     1.0.0
  * Tested up to: 6.2
  *
  * @package unlock-protocol-community-edition
  */
 
-define( 'UNLOCK_PLUGIN_VERSION', '1.0.1' );
+define( 'UNLOCK_PLUGIN_VERSION', '1.0.0' );
 define( 'UNLOCK_PROTOCOL_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 define( 'UNLOCK_PROTOCOL_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) );
 define( 'UNLOCK_PROTOCOL_BUILD_DIR', UNLOCK_PROTOCOL_PATH . '/assets/build' );
