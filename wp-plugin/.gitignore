@@ -1,5 +1,5 @@
 build/*
-dist
+# dist
 
 # Ignore editor config
 .idea/
@@ -34,4 +34,4 @@ psysh_history
 /unlock-wordpress-plugin/assets/build/*
 
 # Ignore .zip folders
-*.zip
+# *.zip
