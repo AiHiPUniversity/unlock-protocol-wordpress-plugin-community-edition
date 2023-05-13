@@ -1,13 +1,12 @@
 <?php
 /**
- * Plugin Name: Unlock Protocol Community Edition -(DEV EDITION)
- * Plugin URI:  https://AiHiPUniversity.com/AddWeb3/Unlock-Protocol
- * Description:  A DEV EDITION plugin to add lock(s) to WordPress content on post, pages and custom post types.
- * Author:      Foskaay Solomon
- * Author URI:  https://AiHiPUniversity.com/AddWeb3/Unlock-Protocol
+ * Plugin Name: Unlock Protocol Community Edition
+ * Plugin URI:  https://unlock-wpplugin-community-edition.AiHiPUniversity.com
+ * Description:  A plugin to add lock(s) to WordPress content on post, pages and custom post types with NFTs deployed via Unlock Protocol.
+ * Author:      Foskaay Solomon, AiHiPuniversity
+ * Author URI:  https://AiHiPUniversity.com
  * Version:     1.0.0
  * Tested up to: 6.2
- * Text Domain: unlock-protocol-community-edition
  *
  * @package unlock-protocol-community-edition
  */
