@@ -1,7 +1,7 @@
 === Unlock Protocol Community Edition ===
 Contributors: Foskaay Solomon, AiHiPUniversity
 Donate link: https://unlock-wpplugin-community-edition.AiHiPUniversity.com/getting-started/donate
-Tags: unlock, blockchain, crypto, ethereum, nft, content monetization
+Tags: unlock, blockchain, crypto, ethereum, polygon, arbitrum, nft, evm blockchain, unlock protocol, web3, web3 login, nft lock, content monetization
 Requires at least: 5.6
 Tested up to: 6.2
 Stable tag: 1.0.0
@@ -12,9 +12,9 @@ A community-driven, open-source fork of the official Unlock Protocol WordPress p
 
 == Description ==
 
-Unlock Protocol Community Edition is an open-source, community-driven WordPress plugin that enables content creators to monetize their posts, pages, and custom post types using the EVM blockchains like (Ethereum, BNB Chain (previous Binance Smart Chain), Polygon, Gnosis Chain, Arbitrum etc.).
+Unlock Protocol Community Edition is an open-source, community-driven WordPress plugin that enables content creators to monetize their posts, pages, and custom post types using NFTs deployed with Unlock Protocol on EVM blockchains like (Ethereum, BNB Chain (previous Binance Smart Chain), Polygon, Gnosis Chain, Arbitrum, Base Blockchain etc.).
 
-This plugin is a fork of the official Unlock Protocol WordPress plugin and aims to address unresolved issues and add new features requested by the community.
+This plugin is a fork of the official Unlock Protocol WordPress plugin and aims to address unresolved long-standing issues on the official plugin and add new features requested by the community.
 
 == Documentation ==
 
